@@ -161,3 +161,99 @@ body {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo)
 }
+
+@media screen  and (max-width: 760px) {
+
+    .principal {
+        width: 480px;
+        height: 55vh;
+
+    }
+
+    .container {
+        display: flex;
+        
+        
+    }
+
+    .container-titulo {
+        font-size: 18px;
+        text-align: left;
+        display: flex;
+        width: 55%;
+        margin-top: 3px;
+        
+    }
+
+    .container-imagem {
+        display: flex;
+        width: 180px;
+        
+    }
+
+    .container-botao, .container-aviso {
+        display: flex;
+        width: 230px;
+        position: left;
+    }
+
+    .secundario {
+        width: 480px;
+        height: 55vh;
+        flex-direction: column;
+    }
+
+    .secundario-imagem {
+        
+        width: 300px;
+        display: flex;
+        padding-right: 300px;
+
+    }
+
+    .descricao-titulo {
+        width: 260px;
+        padding-right: 200px;
+        text-align: center;
+        
+
+    }
+
+    .descricao-texto {
+        width: 350px;
+        margin-top: 100px;
+        padding-right: 200px;
+        text-align: center;
+        padding-right:270px;
+        
+    }
+
+    .secundario-botao {
+        margin-top: 100px;
+    }
+
+    .terceira-imagem { 
+        width: 300px;
+        display: flex;
+        padding-right: 300px;
+        margin-top: 300px;
+        margin-bottom: 50px;
+
+    }
+
+    .dispositivos {
+        margin-top: 300px;
+    }
+    
+    .dispositivos-lista {
+        display: inline-block;
+    }
+
+    
+    .rodape-lista, .lista-link {
+        width: auto;
+        display: inline-block;
+        
+    }
+}
+    
