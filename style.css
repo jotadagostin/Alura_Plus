@@ -163,7 +163,7 @@ body {
     color: var(--cor-de-fundo)
 }
 
-/*@media screen and (max-width:768px) {
+@media screen and (max-width:768px) {
 
     .container {
         display: block;
@@ -197,24 +197,6 @@ body {
     }
 
     
-} */ 
+} 
 
-@media screen and (max-width: 1180px) {
 
-    .principal, .container, .dispositivos, .dispositivos-lista, .rodape, .rodape-lista{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 10% 0;
-        height: 100%;
-    }
-
-    .rodape-logo{
-        width: 60%;
-        margin: 2em auto;
-    }
-
-    .container-caixa{
-        margin: 0;
-    }
-}
