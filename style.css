@@ -196,9 +196,6 @@ body {
         display: block;
     }
 
-    .principal {
-        background-image: url("/img/Background.png");
-        background-attachment: fixed;
-    }
+    
 }
 
